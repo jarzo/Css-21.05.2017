@@ -56,6 +56,7 @@ li>a{
 	color:red;
 	font-family: 'Lobster Two', cursive;
 	font-size: 15px;
+	
 }
 
 div a{
@@ -73,10 +74,17 @@ h2 + h3{
 }
 
 
+/* selektor rodzeństwa*/
+h4 ~ p{
+	color: chocolate;
+	
+}
 
 
-
-
+/* Selektor wykluczający */
+ul > li:not(.last) {
+	color:firebrick;
+}
 
 
 
