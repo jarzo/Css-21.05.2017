@@ -51,7 +51,12 @@ a,span,div{
 	margin-right: 120px;
 	border: outset black;
 	font-family: 'Architects Daughter', cursive;
+	margin-top: 10px;
 	
-	
-	
+}
+/* Selektor bezpośredniego elementu potomnego */
+li>a{
+	color:red;
+	border: none;
+	font-family: 'Lobster Two', cursive;
 }
