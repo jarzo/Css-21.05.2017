@@ -47,16 +47,38 @@ body{
 a,span,div{
 	color:white;
 	font-size: 20px;
-	margin-left: 120px;
-	margin-right: 120px;
-	border: outset black;
 	font-family: 'Architects Daughter', cursive;
-	margin-top: 10px;
+	
 	
 }
 /* Selektor bezpośredniego elementu potomnego */
 li>a{
 	color:red;
-	border: none;
 	font-family: 'Lobster Two', cursive;
+	font-size: 15px;
 }
+
+div a{
+	color: blueviolet;
+	font-size: 15px;
+	font-family: 'Indie Flower', cursive;
+	
+}
+
+/* Selektor bliskiego rodzeństwa*/
+
+h2 + h3{
+	color: chartreuse;
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
