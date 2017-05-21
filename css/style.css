@@ -8,7 +8,6 @@ p{
 	font-size: 30px;
 	font-family: 'Indie Flower', cursive;
 }
-
 #paragraf{
 	color:darkcyan;
 	font-size: 20px;
@@ -18,7 +17,6 @@ p{
 	margin-left: 120px;
 	margin-right: 120px;
 }
-
 .klasa{
 	color:darkmagenta;
 	margin-left: 120px;
@@ -38,12 +36,10 @@ p{
 	margin-top: 50px;
 	border: dotted red;
 }
-
 body{
 	background-color: darkgray;
 	
 }
-
 a,span,div{
 	color:white;
 	font-size: 20px;
@@ -58,39 +54,38 @@ li>a{
 	font-size: 15px;
 	
 }
-
+/*selektor elementów potomnych */
 div a{
 	color: blueviolet;
 	font-size: 15px;
 	font-family: 'Indie Flower', cursive;
 	
 }
-
 /* Selektor bliskiego rodzeństwa*/
-
 h2 + h3{
 	color: chartreuse;
 	font-size: 20px;
 }
-
-
-/* selektor rodzeństwa*/
+/* Selektor rodzeństwa*/
 h4 ~ p{
 	color: chocolate;
 	
 }
-
-
 /* Selektor wykluczający */
 ul > li:not(.last) {
 	color:firebrick;
 }
-
 /* Selektor kolejnego elementu potomnego można dodać formułe aby zmieniało kolor co któryś (an+b)*/
 ul > ol:nth-child(2) {
 	color:darkmagenta;
 }
+/* An+B
+	gdzie:
+A - dowolna liczba
+B - dowolna liczba
+n - licznik od 0
 
-
-
+even/odd
+	enen - parzyste
+	odd - nieparzyste */
 
