@@ -1,7 +1,20 @@
+/* selektor znacznika */
 p{
 	color: rebeccapurple;
 	text-align: center;
-	margin-top: 200px;
+	margin-top: 100px;
+	margin-left: 120px;
+	margin-right: 120px;
 	font-size: 30px;
 	font-family: 'Indie Flower', cursive;
+}
+
+#paragraf{
+	color:darkcyan;
+	font-size: 20px;
+	font-family: 'Pacifico', cursive;
+	margin-top: 30px;
+	border: solid yellow;
+	margin-left: 120px;
+	margin-right: 120px;
 }
