@@ -43,3 +43,15 @@ body{
 	background-color: darkgray;
 	
 }
+
+a,span,div{
+	color:white;
+	font-size: 20px;
+	margin-left: 120px;
+	margin-right: 120px;
+	border: outset black;
+	font-family: 'Architects Daughter', cursive;
+	
+	
+	
+}
