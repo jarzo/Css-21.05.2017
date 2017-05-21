@@ -86,6 +86,10 @@ ul > li:not(.last) {
 	color:firebrick;
 }
 
+/* Selektor kolejnego elementu potomnego można dodać formułe aby zmieniało kolor co któryś (an+b)*/
+ul > ol:nth-child(2) {
+	color:darkmagenta;
+}
 
 
 
