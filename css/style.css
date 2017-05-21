@@ -13,8 +13,33 @@ p{
 	color:darkcyan;
 	font-size: 20px;
 	font-family: 'Pacifico', cursive;
-	margin-top: 30px;
+	margin-top: 25px;
 	border: solid yellow;
 	margin-left: 120px;
 	margin-right: 120px;
+}
+
+.klasa{
+	color:darkmagenta;
+	margin-left: 120px;
+	margin-right: 120px;
+	font-size: 20px;
+	font-family: 'Gloria Hallelujah', cursive;
+	margin-top: 50px;
+	border: dotted #00FA9A;
+	
+}
+.klasa2{
+	color:#ADFF2F;
+	margin-left: 120px;
+	margin-right: 120px;
+	font-size: 20px;
+	font-family: 'Shadows Into Light', cursive;
+	margin-top: 50px;
+	border: dotted red;
+}
+
+body{
+	background-color: darkgray;
+	
 }
